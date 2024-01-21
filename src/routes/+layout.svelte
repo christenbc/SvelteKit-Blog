@@ -6,6 +6,7 @@
 	import type { LayoutData } from './$types'
 	import Header from './header.svelte'
 	import Footer from './footer.svelte'
+	import PageTransition from './transition.svelte'
 
 	import '../app.css'
 
@@ -16,7 +17,9 @@
 	<Header />
 
 	<main>
-		<slot />
+		<PageTransition url={data.url}>
+			<slot />
+		</PageTransition>
 	</main>
 
 	<Footer />
