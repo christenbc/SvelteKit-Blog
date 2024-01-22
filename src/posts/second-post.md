@@ -9,7 +9,7 @@ published: true
 ---
 
 <script>
-    import Counter from './counter.svelte'
+    import { Counter } from '$lib/components'
 </script>
 
 ## Table of Contents
