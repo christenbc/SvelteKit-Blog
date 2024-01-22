@@ -27,6 +27,12 @@
 		padding-block: var(--size-7);
 	}
 
+	li,
+	.title {
+		display: flex;
+		align-items: center;
+	}
+
 	.links {
 		margin-block: var(--size-7);
 	}
