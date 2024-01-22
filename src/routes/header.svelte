@@ -19,7 +19,7 @@
 		</li>
 	</ul>
 
-	<!-- <button>Toggle</button> -->
+	<button>Toggle</button>
 </nav>
 
 <style>
