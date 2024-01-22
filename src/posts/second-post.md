@@ -8,8 +8,16 @@ categories:
 published: true
 ---
 
+<script>
+    import Counter from './counter.svelte'
+</script>
+
 ## Svelte
 
 Media inside the _static_ folder is served from `/`.
 
 ![Svelte](favicon.png)
+
+## Counter
+
+<Counter />
