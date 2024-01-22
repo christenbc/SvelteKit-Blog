@@ -143,7 +143,7 @@ li {
 }
 
 .prose :is(ul, ol) {
-    list-style-type: '🔥';
+    list-style-type: '•';
     padding-left: var(--size-5);
 }
 
@@ -155,7 +155,13 @@ li {
 .prose pre {
     max-inline-size: 100%;
     padding: var(--size-3);
+    margin-block: var(--size-2);
     border-radius: 8px;
     tab-size: 2;
+    overflow-x: auto;
     /* background: red; */
+}
+
+.prose iframe {
+    margin-block: var(--size-3);
 }
